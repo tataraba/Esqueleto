@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>{{ title }}</title>
+  <meta name="description" content="Skeleton-Template"/>
+  <!-- <meta name="HandheldFriendly" content="True"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#5eb9d7"/> -->
+  <meta property="og:site_name" content="{{ title }}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:description"  content="Instructional - How-to."/>
+  <meta property="og:url" content="https://www.inharshlight.com"/>
+  <meta name="twitter:widgets:theme" content="dark">
+  <meta name="twitter:widgets:border-color" content="hsl(168, 40%, 75%)">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{url_for('static', filename='fa/css/all.min.css') }}" type="text/css">
+  {% block pagestyles %}{% endblock %}
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
