@@ -45,6 +45,7 @@ ___
 Bones!
 ___
 
+## Project Structure
 ```
 Esqueleto
 ├─ .gitignore
@@ -75,7 +76,7 @@ Esqueleto
 └─ wsgi.py
 
 ```
-### Modules
+### Modules of Note
 ###### ```wsgi.py```
 
 Most flask apps have a top level module for creating the app. In this case, it is ```wsgi.py``` which is used by WSGI services (like Gunicorn, for example) for serving the application. It calls the ```create_app``` method from the application folder (skeleton).
