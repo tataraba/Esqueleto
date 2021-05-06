@@ -45,11 +45,6 @@ ___
 Bones!
 ___
 
-## Project Structure
-![esq_file_tree](https://user-images.githubusercontent.com/46942991/117201048-0b8c0e00-ada1-11eb-89a6-ebc60b63fd9b.jpg)
-
-or
-
 ```
 Esqueleto
 ├─ .gitignore
@@ -80,7 +75,6 @@ Esqueleto
 └─ wsgi.py
 
 ```
-
 ### Modules
 ###### ```wsgi.py```
 
