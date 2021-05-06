@@ -5,7 +5,7 @@
 Esqueleto is a basic Flask app to serve as a template for other projects. It provides barebones functionality for configuration, model loading, and view registration.
 
 #### What is it?
-It's a foundation, but requires additional know-how. It has a great base db model (built on SQLAlchemy) and useful mixins, as well as a dynamic loader for additional models built anywhere in the application. The same applies for views/routes. 
+It's a foundation, but it does require additional know-how. It has a great base db model (built on SQLAlchemy) and useful mixins, as well as a dynamic loader that handles model and view loading/registration with ease. Not too shabby for a skeleton!
 
 #### What this isn't
 This app does not provide "out-of-the-box" functionality, or a cookie-cutter template to merely tweak with a few customizations. It also does not include any design templates (html/css). It isn't very fleshed out. It is not a real boy!
