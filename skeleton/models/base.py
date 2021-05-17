@@ -34,7 +34,7 @@ class Model(db.Model, QueryMixin):
     @property
     def class_name(self):
         """Shortcut for returning class name."""
-        return unicode(self.__class__.__name__)
+        return self.__class__.__name__
 
     @classmethod
     def __ignore__(cls):
